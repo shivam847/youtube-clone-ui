@@ -1,0 +1,258 @@
+ body {
+     margin: 0;
+     padding-top: 85px;
+     padding-left: 90px;
+     background-color: rgb(255, 254, 254);
+ }
+
+ p {
+     margin: 0;
+     padding-bottom: 3px;
+ }
+
+ .thumbnail {
+     width: 100%;
+ }
+
+ .video-title {
+     font-size: 14px;
+     font-weight: 700;
+     margin-bottom: 10px;
+ }
+
+ .channel-pic {
+     width: 40px;
+
+ }
+
+ .channel-pic-img {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+ }
+
+ .video-stats {
+
+     padding-top: 4px;
+     padding-left: 10px;
+ }
+
+ .video-title {
+     margin-top: 0;
+     line-height: 19px;
+     width: 250px;
+ }
+
+ .thumbnail-pic {
+     margin-bottom: 8px;
+     position: relative;
+ }
+
+ .author,
+ .vid-views {
+     color: rgb(96, 96, 96);
+     font-size: 14px;
+ }
+
+ .video-info {
+     display: grid;
+     grid-template-columns: 50px 1fr;
+ }
+
+ .container {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     row-gap: 20px;
+     column-gap: 20px;
+ }
+
+ .header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 100;
+     background-color: white;
+     height: 50px;
+     padding: 5px 0;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+     border-bottom: 1px solid rgb(220, 218, 218);
+ }
+
+ .left-section {
+     display: flex;
+     align-items: center;
+ }
+
+ .middle-section {
+     display: flex;
+     flex: 1;
+     margin-left: 20px;
+     margin-right: 15px;
+     max-width: 600px;
+     justify-content: center;
+ }
+
+ .search-box {
+     width: 60%;
+     min-width: 150px;
+     font-size: 16px;
+     padding-left: 10px;
+     border: 1px solid gray;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+ }
+
+ .logo {
+     width: 100px;
+ }
+
+ .left-options {
+     height: 25px;
+     margin-left: 20px;
+     margin-right: 20px;
+ }
+
+ .search-icon {
+     height: 40px;
+     width: 60px;
+     border: 1px solid gray;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+     margin-left: -1px;
+     position: relative;
+ }
+
+ .search-icon .search-hover,
+ .voice-search-icon .search-hover,
+ .right-icon .search-hover {
+     position: absolute;
+     background-color: gray;
+     padding: 2px 4px;
+     border-radius: 2px;
+     bottom: -35px;
+     color: white;
+     opacity: 0;
+     transition: opacity 0.25s;
+     pointer-events: none;
+ }
+
+ .search-icon:hover .search-hover,
+ .voice-search-icon:hover .search-hover,
+ .right-icon:hover .search-hover {
+     opacity: 1;
+ }
+
+ .search-icon-pic {
+     height: 25px;
+ }
+
+
+ .voice-search-icon {
+     height: 40px;
+     margin-left: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     border: none;
+ }
+
+ .voice-icon-pic {
+     height: 30px;
+ }
+
+ button:hover {
+     cursor: pointer;
+ }
+
+ img {
+     cursor: pointer;
+ }
+
+ .right-section {
+     display: flex;
+     justify-content: space-around;
+ }
+
+
+ .right-icon {
+     border: none;
+     margin-right: 10px;
+     background-color: white;
+ }
+
+ .upload {
+     height: 25px;
+ }
+
+ .account {
+     height: 35px;
+ }
+
+ .sidebar {
+     background-color: white;
+     position: fixed;
+     top: 60px;
+     bottom: 0;
+     left: 0;
+     z-index: 101;
+     width: 80px;
+
+ }
+
+ .icons {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding-top: 20px;
+     cursor: pointer;
+ }
+
+ .icons:hover {
+     background-color: rgb(228, 225, 225);
+ }
+
+ .side-icon {
+     height: 25px;
+ }
+
+ .icon-name {
+     font-size: 10px;
+     margin-top: 10px;
+ }
+
+ .time-dur {
+     position: absolute;
+     bottom: 8px;
+     right: 5px;
+     background-color: black;
+     color: white;
+     font-size: 14px;
+     font-weight: 600;
+     padding: 3px 2px;
+     border-radius: 2px;
+ }
+
+ .notification-count {
+     background-color: red;
+     color: white;
+     width: 14px;
+     padding: 3px;
+     border-radius: 15px;
+     font-size: 10px;
+     font-weight: 600;
+     position: absolute;
+     top: 4px;
+     right: 3px;
+ }
+
+ .notification {
+     position: relative;
+ }
+
+
